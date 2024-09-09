@@ -1,0 +1,12 @@
+{
+  "name": "test-back-end-target",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
