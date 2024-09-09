@@ -21,7 +21,7 @@ Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por f
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Node.js
+- Node..js
 - JavaScript
 
 # 🛢️ Banco de dados
