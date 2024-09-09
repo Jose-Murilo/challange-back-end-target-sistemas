@@ -4,7 +4,7 @@
 
 Este repositório contém uma série de exercícios de programação resolvidos em JavaScript, abordando conceitos fundamentais e lógicos
 
-## ✏️ Primeiros passos
+# ✏️ Primeiros passos
 
 Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por final rode para ver os resultados no terminal, basta utilizar os seguintes comandos:
 
@@ -17,11 +17,11 @@ Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por f
   
 ```
 
-## 🚀 Tecnologias
+# 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Node..js
+- Node.js
 - JavaScript
 
 # 🛢️ Banco de dados
