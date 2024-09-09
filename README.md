@@ -1,8 +1,10 @@
 <h1 align="center">🚀 Teste de back-end para a Target Sistemas 🚀</h1>
 
-<a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#-Primeiros passos">Primeiros passos</a>&nbsp;&nbsp;
-<a href="#-Modelagem de Dados">Modelagem</a>&nbsp;&nbsp;
+<div align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Primeiros passos">Primeiros passos</a>&nbsp;&nbsp;
+  <a href="#-Modelagem de Dados">Modelagem</a>&nbsp;&nbsp;
+</div>
 
 # Descrição do Código
 
