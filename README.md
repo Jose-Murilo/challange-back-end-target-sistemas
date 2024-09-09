@@ -6,7 +6,7 @@ Este repositório contém uma série de exercícios de programação resolvidos 
 
 ## ✏️ Primeiros passos
 
-Primeiramente clone o projeto, logo em seguida rode para ver os resultados no terminal, basta utilizar o comando:
+Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por final rode para ver os resultados no terminal, basta utilizar o comando:
 
 ```bash
   git clone https://github.com/Jose-Murilo/challange-back-end-target-sistemas.git
