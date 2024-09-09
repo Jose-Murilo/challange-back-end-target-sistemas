@@ -2,7 +2,7 @@
 
 # 📃 Descrição do Código
 
-Este repositório contém uma série de exercícios de programação resolvidos em JavaScript, abordando conceitos fundamentais e lógicos. Abaixo estão os detalhes de cada exercício, ilustrados e explicados conforme necessário.
+Este repositório contém uma série de exercícios de programação resolvidos em JavaScript, abordando conceitos fundamentais e lógicos
 
 ## ✏️ Primeiros passos
 
