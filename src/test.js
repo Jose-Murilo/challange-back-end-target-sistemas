@@ -183,14 +183,17 @@ analyzeRevenue(dailyRevenue);
     Estado: id (PK), sigla, nome
 
   Codigo SQL:
-    SELECT c.ID AS ClienteID, 
-       c.RazaoSocial, 
-       t.Numero AS Telefone
-    FROM Clientes c
-    JOIN Estados e ON c.EstadoID = e.ID
-    JOIN Telefones t ON c.ID = t.ClienteID
-    WHERE e.Sigla = 'SP';
-    
+    SELECT 
+      c.id_cliente AS ClienteID, 
+      c.razao_social AS RazaoSocial, 
+      t.numero AS Telefone
+    FROM 
+        Cliente c
+    JOIN 
+        Telefone t ON c.id_cliente = t.id_cliente
+    WHERE 
+        c.estado = 'SP';
+        
     // Consulta SQL que lista clientes de SP e seus telefones, excluindo clientes sem telefone.
 */
 
