@@ -10,7 +10,9 @@ Primeiramente clone o projeto, logo em seguida rode para ver os resultados no te
 
 ```bash
   git clone https://github.com/Jose-Murilo/challange-back-end-target-sistemas.git
+  # after
   cd challange-back-end-target-sistemas
+  # after
   npm start
 ```
 
