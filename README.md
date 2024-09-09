@@ -21,28 +21,32 @@ Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por f
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- Nodejs
+- Node.js
 - JavaScript
 
 # 🛢️ Modelagem de Dados
+1. Cliente
+  - id_cliente (PK) * Identificador único do cliente.
+  - razao_social * Nome ou razão social do cliente.
+  - estado (FK) * Referência ao estado onde o cliente se encontra.
 
-Cliente
+2. Telefone
+  - id_telefone (PK) * Identificador único do telefone.
+  - numero * Número de telefone.
+  - tipo (FK) * Tipo do telefone (comercial, residencial, celular, etc.).
+  - id_cliente (FK) * Referência ao cliente que possui o telefone.
 
-id (PK)
-nome
-estado_id (FK)
-Telefone
+3. TipoTelefone
+  - id_tipo (PK) * Identificador único do tipo de telefone.
+  - descricao * Descrição do tipo de telefone (ex: comercial, residencial).
 
-id (PK)
-numero
-tipo_id (FK)
-cliente_id (FK)
-TipoTelefone
+4. Estado
+  - sigla (PK) * Sigla do estado (ex: SP).
+  - nome * Nome completo do estado.
 
-id (PK)
-descricao
-Estado
+# Relacionamentos na tabela
+`Cliente e Telefone`: Um cliente pode ter muitos telefones, então há um relacionamento de um-para-muitos entre Cliente e Telefone. (id_cliente em Telefone é FK referenciando id_cliente em Cliente)
 
-id (PK)
-sigla
-nome
+`Telefone e TipoTelefone`: Cada telefone tem um tipo, então há um relacionamento de muitos-para-um entre Telefone e TipoTelefone. (tipo em Telefone é FK referenciando id_tipo em TipoTelefone)
+
+`Cliente e Estado`: Cada cliente está localizado em um estado, então há um relacionamento de muitos-para-um entre Cliente e Estado. (estado em Cliente é FK referenciando sigla em Estado)
