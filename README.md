@@ -14,6 +14,7 @@ Primeiramente clone o projeto, logo em seguida entre na pasta do projeto e por f
   cd challange-back-end-target-sistemas
   # after
   npm start
+  
 ```
 
 ## 🚀 Tecnologias
