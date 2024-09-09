@@ -9,6 +9,8 @@ Este repositório contém uma série de exercícios de programação resolvidos 
 Primeiramente clone o projeto, logo em seguida rode para ver os resultados no terminal, basta utilizar o comando:
 
 ```bash
+  git clone https://github.com/Jose-Murilo/challange-back-end-target-sistemas.git
+  cd challange-back-end-target-sistemas
   npm start
 ```
 
